@@ -1,0 +1,271 @@
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+#logo{
+    margin: 5px 22px;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 650px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1-4rem;
+}
+#navbar ul li a{
+    color:green;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: red;
+    background-color:black;
+}
+/* home section */
+#home {
+    display: flex;
+    color:white;
+    font-weight: bolder;
+    font-size: larger;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 578px;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background-image: url('https://kotart.in/cdn/shop/products/Kotart-Restaurant-Gallery-Wall-Art-Frame-Combo-Set-of-8-5.jpg?v=1697547651&width=1445');
+}
+#home p{
+    padding: 0px 100px;
+}
+#home h1{
+    font-size: 50px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid yellow;
+    background-color:black;
+    color: white;
+    margin: 17px;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: red;
+
+}
+#about{
+    margin: 8% 8% 0% 8%;
+}
+.head_about{
+    text-align: center;
+}
+.head_about h1{
+    font-size: 30px;
+}
+#about_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    margin-top: 2.5rem;
+}
+.about_img{
+    border-radius: 10px;
+}
+.about_para{
+    text-align: justify;
+    font-size:18px ;
+}
+.information{
+    margin-top: 20px;
+}
+.info_box{
+    margin-bottom: 1.5rem;
+}
+.info_box span{
+    margin-left: 3rem;
+    font-size: 18px;
+}
+
+
+/* service */
+.service_head{
+    font-size: 30px;
+    text-align: center;
+}
+#service_content{
+    margin: 34px;
+    display: flex;
+}
+#service_content .box{
+    border: 2px solid red;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color:antiquewhite;
+}
+#service_content .box img{
+    height: 156px;
+    margin: auto;
+    display: block;
+}
+#service_content .box p{
+    font-family: sans-serif;
+}
+
+/* menu */
+
+.menu_head{
+    font-size: 30px;
+    text-align: center;
+}
+#menu_content{
+    margin: 34px;
+    display: flex;
+}
+#menu_content .box1{
+    border: 2px solid black;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color:white;
+}
+#menu_content .box1 img{
+    height: 156px;
+    margin: auto;
+    display: block;
+}
+#menu_content .box1 p{
+    font-family: sans-serif;
+}
+#menu_content .box1 .btn1{
+    padding: 4px 10px;
+    border: 1px solid yellow;
+    background-color:black;
+    color:wheat;
+    margin: 17px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn1:hover{
+background-color: black;
+}
+   
+/* contact */
+.contact_head{
+    font-size: 25px;
+    text-align: center;
+}
+#touch{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 20px;
+}
+.form{
+    width: 600px;
+    height: 350px;
+    border: 1px white;
+    background-color: wheat;
+    margin-left: 400px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+#email{
+    width: 350px;
+    height: 30px;
+    margin-left: 10px;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 3px;
+    color: rebeccapurple;
+    font-size: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name{
+    width: 350px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 3px;
+    color: rebeccapurple;
+    font-size: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#message{
+    width: 350px;
+    height: 80px;
+    margin-left: 30px;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 3px;
+    color: rebeccapurple;
+    font-size: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn2{
+    width: 200px;
+    height: 25px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    margin-left: 150px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#follow{
+    text-align: center;
+}
+.icon_set{
+    display: flex;
+    align-items: center; /* to place content vertically*/
+    justify-content: center; /* to place a content horizonataly center */
+    margin-top:2rem ;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; /* to place content vertically*/
+    justify-content: center; /* to place a content horizonataly center */
+    margin: 0px 15px;
+}
+.icon:hover {
+    background-image: linear-gradient(to bottom right, red,white);
+    }
+    .icon i{
+        font-size: 2rem;
+        color: black;
+    }
+    .icon:hover i{
+        color: white;
+        animation: shake,0.75s;
+    }
+    #footer{
+        color: blue;
+        background-color:whitesmoke
+        font-size: 10px;
+        text-align: center;
+
+    }
